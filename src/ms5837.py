@@ -52,9 +52,9 @@ args = parser.parse_args()
 # Check if MS can comunicate with SL
 Check,C = ms5837_main.calibration()
 if Check == True:
-	print "Sensor MS5837 initialized"
+	print("Sensor MS5837 initialized")
 else:
-	print "Sensor MS5837 could not be initialized"
+	print("Sensor MS5837 could not be initialized")
 	exit(1)
 
 # Time knowledge
