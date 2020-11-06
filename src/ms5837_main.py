@@ -53,7 +53,7 @@ def calibration():
 def read(oversampling=OSR_8192):
         
 	if oversampling < OSR_256 or oversampling > OSR_8192:
-		print "Invalid oversampling!"
+		print("Invalid oversampling!")
 		return False
         
 	# D1 read/write (pressure)
